@@ -1,5 +1,5 @@
-import { Fragment } from "react";
-import { Navbar } from "./component/cricket";
+import {Fragment}  from "react";
+import {Navbar}  from "./component/cricket";
 import { Hero } from "./component/herosection";
 import { LiveScores } from "./component/livescore";
 import{Rankings} from "./component/ranking";
