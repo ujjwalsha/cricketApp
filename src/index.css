@@ -1,0 +1,31 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.photo{
+  margin-bottom: 20px;
+}
+
+img{
+  border-radius: 50px;
+}
+.grid{
+  display:grid;
+  gap:9.6rem;
+}
+.grid-two-cols{
+  grid-template-columns: repeat(2,1fr);
+}
+.grid-three-cols{
+  grid-template-columns: repeat(3,1fr);
+}
+.superhit{
+  background-color:green;
+}
+.average{
+  background-color:yellow;
+}
